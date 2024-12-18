@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(25, 87, 45);
+  border-bottom: 5px solid rgb(235, 196, 178);
+  /* position: fixed; */
+}
+
+nav {
+  text-align: right;
+}
+
+.main {
+  text-align: center;
+}
+
+.link-nav {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.contact {
+  text-align: center;
+  background-color: rgb(235, 196, 178);
+}
+
+.footer {
+  padding: 50px auto;
+  text-align: center;
+  background-color: rgb(25, 87, 45);
+  border-bottom: 100px solid dark rgb(80, 79, 79);
+}
