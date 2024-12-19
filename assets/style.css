@@ -1,16 +1,18 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
   background-color: rgb(25, 87, 45);
-  border-bottom: 5px solid rgb(235, 196, 178);
+  border-bottom: 8px solid rgb(209, 158, 134);
   /* position: fixed; */
 }
 
 nav {
   text-align: right;
+  padding: 10px;
 }
 
 .main {
@@ -22,14 +24,54 @@ nav {
   text-decoration: none;
   padding: 0 10px;
 }
+
+#img-cs {
+  display: block;
+  margin: 20px auto;
+}
+
+#lorem {
+  margin-bottom: 40px;
+}
+
 .contact {
   text-align: center;
   background-color: rgb(235, 196, 178);
+  padding: 30px;
+  position: relative;
+  border-top: 2px solid rgb(209, 158, 134);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  border: 4px solid rgb(209, 158, 134);
+  width: 400px;
+  border-radius: 11px;
+  text-align: center;
+  max-width: 400px;
+  padding: 15px;
+  position: relative;
+  left: 685px;
+}
+
+#name,
+#email {
+  margin: 5px;
+}
+
+.btn {
+  padding: 5px 15px;
+  background-color: rgb(71, 55, 55);
+  color: white;
 }
 
 .footer {
-  padding: 50px auto;
+  color: white;
+  padding: 20px 50px;
   text-align: center;
   background-color: rgb(25, 87, 45);
-  border-bottom: 100px solid dark rgb(80, 79, 79);
+  border-bottom: 5px solid rgb(71, 55, 55);
 }
